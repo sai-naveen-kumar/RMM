@@ -26,7 +26,7 @@ SECRET_KEY = 'aa$a^&$j_1j9e0nh0=*)yt=_l@-o2_(t3wx-9v+h%kkj6cqii@'
 #DEBUG = True
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'rmm-dashboard.herokuapp.com']
+ALLOWED_HOSTS = ['*','127.0.0.1', 'rmm-dashboard.herokuapp.com']
 
 
 # Application definition
