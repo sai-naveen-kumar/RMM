@@ -123,10 +123,10 @@ def Sysinfo():
 ##        print(f"  Percentage: {partition_usage.percent}%")
         disk[f"Device:{partition.device}"]={"Mountpoint": f"{partition.mountpoint}","File system type":f"{partition.fstype}","Total Size":f"{get_size(partition_usage.total)}","Used":f"{get_size(partition_usage.used)}","Free":f"{get_size(partition_usage.free)}","Percentage":f"{get_size(partition_usage.percent)}"}
     # getIO statistics since boot
-    disk_io = psutil.disk_io_counters()
+#    disk_io = psutil.disk_io_counters()
 ##    print(f"Total read: {get_size(disk_io.read_bytes)}")
 ##    print(f"Total write: {get_size(disk_io.write_bytes)}")
-    disk["total"]={"Total read":f"{get_size(disk_io.read_bytes)}","Total write":f"{get_size(disk_io.write_bytes)}"}
+#    disk["total"]={"Total read":f"{get_size(disk_io.read_bytes)}","Total write":f"{get_size(disk_io.write_bytes)}"}
 
 
 
