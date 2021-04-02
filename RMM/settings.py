@@ -23,9 +23,10 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'aa$a^&$j_1j9e0nh0=*)yt=_l@-o2_(t3wx-9v+h%kkj6cqii@'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = True
+#DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = ['192.168.29.88', 'localhost','127.0.0.1']
+ALLOWED_HOSTS = ['127.0.0.1', 'rmm-dashboard.herokuapp.com']
 
 
 # Application definition
