@@ -10,15 +10,9 @@
                 </div>
                 <div class="col-lg-6">
                     <h5>CPU Usage</h5>
+                        <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
                         <canvas id="myChart" width="400" height="400"></canvas>
-                            
-                </div>
-            </div>
-        </div>
-    </div>
-{% endblock %}
-<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
-<script>
+                        <script>
     var ctx = document.getElementById('myChart');
     var myChart = new Chart(ctx, {
         type: 'bar',
@@ -54,4 +48,9 @@
             }
         }
     });
-</script>
+</script>   
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
